@@ -1,3 +1,20 @@
+/* custome css  */
+
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------
+navbar text color
+----------*/
+.nav-text-color{
+    color: #3E3E3E;
+}
+.nav-band-hover:hover{
+    color: #3E3E3E;
+}
+.nav-text-hover:hover{
+    color:  #3F87F5;
+    border-bottom: #3F87F5 2px solid;
 }
