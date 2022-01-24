@@ -27,6 +27,7 @@ navbar text color
     color: #0A0826;
     font-size: 38px;
     line-height: 50px;
+    margin: 100px 0;
 }
 
 /*----------------
@@ -97,4 +98,23 @@ accordion-style
     font-size: 16px;
     line-height: 28px;
     color: #7E848C;
+}
+
+/* footer  */
+
+.footer-bg{
+    background: #0B0D17;
+}
+.footer-title{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9DBE1;
+}
+.footer-copyright{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
 }
