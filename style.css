@@ -26,6 +26,7 @@ navbar text color
 .sec-title{
     color: #0A0826;
     font-size: 38px;
+    line-height: 50px;
 }
 
 /*----------------
@@ -71,3 +72,29 @@ navbar text color
     font-weight: bold;
  }
  
+/*----------------
+accordion-style 
+------------------*/
+.accordion-style{
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.accordion-button:not(.collapsed){
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.accordion-headtext{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #383838;
+}
+.accordion-details-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7E848C;
+}
