@@ -55,13 +55,13 @@
                             <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#">About Us</a>
+                            <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#explore-section">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#">Subscribe</a>
+                            <a class="nav-link nav-text-color nav-text-hover fw-bold" href="#subscribe-section">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -138,24 +138,25 @@
         </section>
 
         <!-- explore-section -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="explore-section">
             <div class="row">
-                <div class="col-lg-6 d-flex justify-content-center"><img src="images/wedding.png" alt=""
-                        class="img-fluid"></div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="images/wedding.png" alt="" class="img-fluid">
+                </div>
                 <div class="col-lg-6 my-auto">
                     <h1 class="explore-title">Every moment is Precious</h1>
                     <p class="my-3 explore-details">Some moments in life have a special meaning to us and we want to
                         make sure that we can fully experience them. In our personal lives, weddings, business events,
                         various conventions are a very precious moment in our lives. Professionally, we can become an
                         outstanding, valuable highlight in your life</p>
-                    <a href="" class="btn explore-button px-3">Explore our album<i
+                    <a href="#album-section" class="btn explore-button px-3">Explore our album<i
                             class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </section>
 
         <!-- toast section  -->
-        <section class="">
+        <section>
             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
                 <div class="toast show toast-border align-items-center" role="alert" aria-live="assertive"
                     aria-atomic="true">
@@ -171,6 +172,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Our package section -->
         <section class="container">
             <div>
@@ -301,6 +303,58 @@
             </div>
         </section>
 
+        <!-- album  section  -->
+        <section class="container" id="album-section">
+            <div>
+                <h1 class="sec-title text-center">Our Album</h1>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                    <div class="col photo">
+                        <img src="album/1.jpg" alt="">
+                    </div>
+                    <div class="col photo">
+                        <img src="album/2.jpg" alt="">
+                    </div>
+                    <div class="col photo">
+                        <img src="album/3.jpg" alt="">
+                    </div>
+                
+                    <div class="col photo">
+                        <img src="album/4.jpeg" alt="">
+                    </div>
+                    <div class="col photo">
+                        <img src="album/5.jpg" alt="">
+                    </div>
+                    <div class="col photo">
+                        <img src="album/6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container mx-auto">
+                <div class="row gy-5">
+                    <div class="col">
+                        <img src="album/1.jpg" class="album-img" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="album/2.jpg" class="album-img" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="album/3.jpg" class="album-img" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="album/4.jpeg" class="album-img" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="album/5.jpg" class="album-img" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="album/6.jpg" class="album-img" alt="">
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
         <!-- Clients section  -->
         <section class="container">
             <div>
@@ -363,6 +417,36 @@
             </div>
         </section>
 
+        <!-- Subscribe section  -->
+        <section class="container" id="subscribe-section" style="margin:100px auto;">
+            <div>
+                <h1 class="sec-title text-center">Subscribe Now</h1>
+            </div>
+            <div class="w-75 mx-auto shadow p-4 rounded-3">
+                <div class="row">
+                    <div class="col-lg my-auto p-2">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                    </div>
+                    <div class="col-lg my-auto p-2">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                    </div>
+                    <div class="col-lg my-auto">
+                        <div class="d-flex justify-content-center">
+                            <button class="btn px-5 explore-button">
+                                Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <!-- Frequently Asked Questions section  -->
         <section class="container" style="margin-bottom: 150px;">
             <div>
@@ -370,112 +454,11 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-lg-6 col-sm">
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                Accordion Item #1
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
-                                                default, until the collapse plugin adds the appropriate classes that we
-                                                use to style each element. These classes control the overall appearance,
-                                                as well as the showing and hiding via CSS transitions. You can modify
-                                                any of this with custom CSS or overriding our default variables. It's
-                                                also worth noting that just about any HTML can go within the
-                                                <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            Accordion Item #2
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong> It is hidden by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by
-                                            default, until the collapse plugin adds the appropriate classes that we use
-                                            to style each element. These classes control the overall appearance, as well
-                                            as the showing and hiding via CSS transitions. You can modify any of this
-                                            with custom CSS or overriding our default variables. It's also worth noting
-                                            that just about any HTML can go within the <code>.accordion-body</code>,
-                                            though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
 
-                    <div class="col-lg-6 col-sm">
+                    <div class="col-lg-6 col-sm order-sm-2 d-flex align-items-center ">
+                        <img src="/images/FAQ.jpg" alt="" class="img-fluid faq-img my-auto mx-auto">
+                    </div>
+                    <div class="col-lg-6 col-sm order-sm-1">
                         <div class="accordion p-1" id="accordionExample">
                             <!-- accordion one  -->
                             <div class="accordion-item my-2 rounded-2">
@@ -557,9 +540,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm d-flex align-items-center ">
-                        <img src="/images/FAQ.jpg" alt="" class="img-fluid faq-img my-auto mx-auto">
-                    </div>
                 </div>
 
             </div>
@@ -572,13 +552,7 @@
         <div class="container-fluid footer-bg">
             <div class="container">
                 <div class="row" style="height: 250px;">
-                    <div class="col-lg-6 my-auto">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <h5 class="footer-copyright">© Royal-Convention.2020 || All rights reserved</h5>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6 my-auto">
+                    <div class="col-lg-6 order-sm-2 my-auto">
                         <div class="d-flex flex-column align-items-center">
                             <h3 class="footer-title">Get the App</h3>
                             <div class="mt-2" style="width: 135px;">
@@ -593,6 +567,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 order-sm-1 my-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h5 class="footer-copyright">© Royal-Convention.2020 || All rights reserved</h5>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
