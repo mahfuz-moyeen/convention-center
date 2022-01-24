@@ -29,6 +29,33 @@ navbar text color
     line-height: 50px;
     margin: 100px 0;
 }
+
+/*-----------------------
+explore-section 
+-------------------------*/
+.explore-button{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #3F87F5;
+}
+.explore-button:hover{
+    color: #3F87F5;
+    background: #FFFFFF;
+    border: 1px solid #3F87F5;
+}
+.explore-title{
+    color: #0A0826;
+    font-size: 38px;
+    line-height: 50px;
+}
+.explore-details{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
 /*---------------
  toast section  
  --------------*/
