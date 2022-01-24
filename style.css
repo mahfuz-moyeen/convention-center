@@ -19,3 +19,55 @@ navbar text color
     border-bottom: #3F87F5 1px solid;
     margin-bottom: -1px;
 }
+
+/*--------------------
+ section title style  
+---------------------*/
+.sec-title{
+    color: #0A0826;
+    font-size: 38px;
+}
+
+/*----------------
+ card button 
+ ---------------- */
+ .card-button{
+    background: rgba(244, 150, 209, 0.2);
+    color: #3F87F5;
+    font-weight: bold;
+ }
+ .card-color{
+    background: #f3f3f3;
+ }
+ .card-title-color{
+    color: #231D4F;
+ }
+
+ .card-details{
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+ }
+ .card-hot{
+     
+     z-index: 1;
+     top: -40px;
+ }
+ .card-hot-bg{
+    background: #3F87F5;
+ }
+ .hot-card-title-color{  
+    color: #FFFFFF;
+ }
+
+ .hot-card-details{
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+ }
+ .card-hot-button{
+    background: #FFFFFF;
+    color: #3F87F5;
+    font-weight: bold;
+ }
+ 
