@@ -108,6 +108,15 @@ explore-section
     color: #3F87F5;
     font-weight: bold;
  }
+
+ /* our cleint section  */
+.cleint-talk{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+ .cleint-box{
+     background-color: #FFFFFF;
+ }
  
  /* FAQ section  */
  .faq-img{
