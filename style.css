@@ -29,6 +29,15 @@ navbar text color
     line-height: 50px;
     margin: 100px 0;
 }
+/*---------------
+ toast section  
+ --------------*/
+ .toast-border{
+     border-left: 3px solid #3F87F5;
+ }
+ .fa-gift{
+    color:  #3F87F5;
+ }
 
 /*----------------
  card button 
@@ -73,6 +82,12 @@ navbar text color
     font-weight: bold;
  }
  
+ /* FAQ section  */
+ .faq-img{
+    width: 80%;
+    height: 80%;
+     border-radius: 30px;
+ }
 /*----------------
 accordion-style 
 ------------------*/
